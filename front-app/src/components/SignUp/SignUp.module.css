@@ -1,0 +1,32 @@
+/* .formDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.parentDiv{
+    display: flex;
+    justify-content: center;
+}
+.formDiv {
+    padding: 50px 50px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.54);
+    width: 90%;
+    border-radius: 10px;
+}
+.signDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.signDiv p:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+.signDiv p:active{
+    color: darkgrey;
+    cursor: pointer;
+}

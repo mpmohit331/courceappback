@@ -1,0 +1,23 @@
+.navbar {
+    background-color: white;
+    /* position: fixed; */
+    /* top: 0; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.53);
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.53);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2000;
+}
+.navbar p{
+    padding: 10px;
+    margin: 0px;
+    cursor: pointer;
+}
+.navbar img{
+    max-width: 100px;
+}

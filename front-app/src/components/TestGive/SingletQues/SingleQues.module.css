@@ -1,0 +1,18 @@
+.parentDiv {
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.54);
+    width: 90%;
+    padding: 10px ;
+    text-align: center;
+    margin-top: 10px;
+}
+.optionDiv{
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.14);
+}
